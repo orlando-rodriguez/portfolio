@@ -182,14 +182,13 @@ var Header = function Header() {
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "About")));
+  }, "Go to About Page")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
