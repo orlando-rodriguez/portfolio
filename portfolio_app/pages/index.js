@@ -14,6 +14,7 @@ const Index = (props) => (
     <style jsx>{`
       h1 {
         font-family: "Arial";
+        text-align: center;
       }
     `}</style>
   </Layout>

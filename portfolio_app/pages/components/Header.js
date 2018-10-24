@@ -1,46 +1,55 @@
 import Link from 'next/link'
+import { Icon, Menu } from 'semantic-ui-react'
 
 const linkStyle = {
   marginRight: 15
 }
 
-const Header = () => (
 
-  <div>
+export default class Header extends React.Component {
 
-    <nav>
-      <Link href="/">
-        <a style={linkStyle}>Home</a>
-      </Link>
+  state = {}
 
-      <Link href="/about">
-        <a style={linkStyle}>About</a>
-      </Link>
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-      <Link href="/resume">
-        <a style={linkStyle}>Resume</a>
-      </Link>
+  render() {
+    const { activeItem } = this.state
 
-      <Link href="/contact">
-        <a style={linkStyle}>Contact</a>
-      </Link>
-    </nav>
+    return (
+      <Menu fluid widths={3} icon='labeled'>
+        <Link href='/' passHref>
+          <Menu.Item
+            href="/"
+            name='home'
+            active={activeItem === 'home'}
+            onClick={this.handleItemClick}
+          >
+            <Icon name='home' />
+            Home
+          </Menu.Item>
+        </Link>
 
-    <style jsx>{`
-      a {
-        font-family: "Arial";
-        text-decoration: none;
-        color: blue;
-      }
+        <Link href='/about' passHref>
+        <Menu.Item
+          href="/about"
+          name='about'
+          active={activeItem === 'about'}
+          onClick={this.handleItemClick}
+        >
+          <Icon name='user outline' />
+          About
+        </Menu.Item>
+        </Link>
 
-      a:hover {
-        opacity: 0.6;
-      }
-    `}</style>
-
-  </div>
-
-
-)
-
-export default Header
+        <Menu.Item
+          name='video play'
+          active={activeItem === 'video play'}
+          onClick={this.handleItemClick}
+        >
+          <Icon name='video play' />
+          Videos
+        </Menu.Item>
+      </Menu>
+    )
+  }
+}

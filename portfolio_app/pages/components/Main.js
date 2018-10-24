@@ -1,11 +1,11 @@
-import { Image } from 'semantic-ui-react'
+import { Header, Image } from 'semantic-ui-react'
 
 
 const Main = () => (
 
 
 <div>
-   <img src={require('./images/orlando.jpg')} />
+   <Image src={require('./images/orlando.jpg')} size='medium' circular centered />
    <style jsx>{`
       img {
         width: 500px
