@@ -15,13 +15,14 @@ export default class Header extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <Menu fluid widths={4} icon='labeled'>
+      <Menu fluid widths={4} icon='labeled' style={{backgroundColor: '#5faeb6'}}>
         <Link href='/' passHref>
           <Menu.Item
             as='a'
             name='home'
             active={activeItem === 'home'}
             onClick={this.handleItemClick}
+            style={{color: 'white'}}
           >
             <Icon name='home' />
             Home
@@ -34,6 +35,7 @@ export default class Header extends React.Component {
           name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
+          style={{color: 'white'}}
         >
           <Icon name='user outline' />
           About
@@ -46,6 +48,7 @@ export default class Header extends React.Component {
           name='portfolio'
           active={activeItem === 'portfolio'}
           onClick={this.handleItemClick}
+          style={{color: 'white'}}
         >
           <Icon name='book' />
           Portfolio
@@ -58,6 +61,7 @@ export default class Header extends React.Component {
           name='resume'
           active={activeItem === 'resume'}
           onClick={this.handleItemClick}
+          style={{color: 'white'}}
         >
           <Icon name='newspaper outline' />
           Resume

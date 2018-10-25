@@ -12,12 +12,12 @@ const Main = () => (
     <section>
       <h2>Full-Stack Software Engineer</h2>
       <Grid columns={3} relaxed style={{ marginTop: '2em' }}>
-        <Grid.Column style={{borderRightStyle: 'dashed'}}>
+        <Grid.Column style={{borderRightStyle: 'dashed', borderRightColor: '#778899',}}>
           <Image src={require('./images/react-seeklogo.com.svg')} alt='React Logo' size='small' centered style={{ width: '150px', height: '150px', }} />
           <p>React</p>
         </Grid.Column>
 
-        <Grid.Column style={{borderRightStyle: 'dashed'}}>
+        <Grid.Column style={{borderRightStyle: 'dashed', borderRightColor: '#778899',}}>
           <Image src={require('./images/javascript-js-seeklogo.com.svg')} alt='JavaScript logo' size='small' centered style={{ width: '150px', height: '150px', borderRight: '1px', }} />
           <p>JavaScript</p>
         </Grid.Column>
@@ -34,6 +34,7 @@ const Main = () => (
          font-family: "Arial";
          text-align: center;
          margin-top: 1em;
+         color: #5faeb6;
        }
      `}</style>
  </div>

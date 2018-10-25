@@ -9,7 +9,7 @@ const layoutStyle = {
 }
 
 export default ({ children, title = `Orlando's Portfolio` }) => (
-  <div style={{ padding: 0, margin: 0, backgroundColor: '#323a45', }}>
+  <div style={{ padding: 0, margin: 0, backgroundColor: '#f6f7f9', }}>
 
     <Head>
       <title>{ title }</title>
