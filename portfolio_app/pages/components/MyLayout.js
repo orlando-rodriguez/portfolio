@@ -18,10 +18,10 @@ export default ({ children, title = `Orlando's Portfolio` }) => (
       <meta name="author" content="Orlando Rodriguez" />
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link
-        rel="stylesheet"
-        href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"
-      />
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" />
 
     </Head>
 
