@@ -4,28 +4,32 @@ import { Segment, Image } from 'semantic-ui-react'
 export default () => (
   <div>
     <Layout title='About Orlando'>
-      <h1>About Orlando</h1>
-      <Segment>
-        <Image src={require('./components/images/nodejs-seeklogo.com.svg')} size='small' floated='left' />
+      <h1 style={{margin: '1em 1em', color: '#5faeb6',}}>About Orlando</h1>
+      <div>
+      <Segment centered style={{minHeight: '300px', margin: '1em 1em'}}>
+        <Image src={require('./components/images/IMG_1716.JPG')} size='small' floated='left' />
         <p>
-          Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem,
-          est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum
-          ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei
-          ex natum rebum iisque.
+          I am a software engineer developing in JavaScript, NodeJS, Java and SQL. I graduated from
+          the University of Colorado - Boulder in May 2017 with a B.A. Integrative Physiology.
+          My passion lies in helping people from diverse backgrounds enrich their daily lives
+          through the use of technology.
         </p>
         <Image src={require('./components/images/nodejs-seeklogo.com.svg')} size='small' floated='right' />
         <p>
-          Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi
-          nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix
-          fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in.
+          In July 2018, I was awarded a Web Development certificate from Galvanize Denver. I
+          learned many tools and technologies along with paired-programming methods, test-driven development (TDD),
+          version control via Git/GitHub and object-oriented programming principles. I also worked on
+          group projects and hackathons using agile methodologies such as SCRUM and Kanban.
         </p>
         <p>
-          Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores
-          adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete
-          utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi
-          convenire mnesarchum eu per, quas minimum postulant per id.
+          I am looking for full-time employment in an innovative, rigorous team environment delivering tailor-made
+          solutions. My knowledge of React, GraphQL, REST Web Services, PostgreSQL, Express and SASS/LESS gives me
+          the ability to excel in many roles. Please contact me using my email or connect with me on Linkedin
+          to stay up-to-date on my progress.
+
           </p>
       </Segment>
+      </div>
     </Layout>
   </div>
 )

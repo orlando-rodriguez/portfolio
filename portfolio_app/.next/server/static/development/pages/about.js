@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -113,15 +113,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "About Orlando"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Orlando"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Segment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: __webpack_require__(/*! ./components/images/nodejs-seeklogo.com.svg */ "./pages/components/images/nodejs-seeklogo.com.svg"),
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    style: {
+      margin: '1em 1em',
+      color: '#5faeb6'
+    }
+  }, "About Orlando"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Segment"], {
+    centered: true,
+    style: {
+      minHeight: '300px',
+      margin: '1em 1em'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: __webpack_require__(/*! ./components/images/IMG_1716.JPG */ "./pages/components/images/IMG_1716.JPG"),
     size: "small",
     floated: "left"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei ex natum rebum iisque."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a software engineer developing in JavaScript, NodeJS, Java and SQL. I graduated from the University of Colorado - Boulder in May 2017 with a B.A. Integrative Physiology. My passion lies in helping people from diverse backgrounds enrich their daily lives through the use of technology."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
     src: __webpack_require__(/*! ./components/images/nodejs-seeklogo.com.svg */ "./pages/components/images/nodejs-seeklogo.com.svg"),
     size: "small",
     floated: "right"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Audiam quaerendum eu sea, pro omittam definiebas ex. Te est latine definitiones. Quot wisi nulla ex duo. Vis sint solet expetenda ne, his te phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide phaedrum, vim vivendum maiestatis in."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id."))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In July 2018, I was awarded a Web Development certificate from Galvanize Denver. I learned many tools and technologies along with paired-programming methods, test-driven development (TDD), version control via Git/GitHub and object-oriented programming principles. I also worked on group projects and hackathons using agile methodologies such as SCRUM and Kanban."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am looking for full-time employment in an innovative, rigorous team environment delivering tailor-made solutions. My knowledge of React, GraphQL, REST Web Services, PostgreSQL, Express and SASS/LESS gives me the ability to excel in many roles. Please contact me using my email or connect with me on Linkedin to stay up-to-date on my progress.")))));
 });
 
 /***/ }),
@@ -457,6 +468,17 @@ var layoutStyle = {
 
 /***/ }),
 
+/***/ "./pages/components/images/IMG_1716.JPG":
+/*!**********************************************!*\
+  !*** ./pages/components/images/IMG_1716.JPG ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/IMG_1716-c637e70d959bc3a9dce7907abb48c54f.JPG";
+
+/***/ }),
+
 /***/ "./pages/components/images/nodejs-seeklogo.com.svg":
 /*!*********************************************************!*\
   !*** ./pages/components/images/nodejs-seeklogo.com.svg ***!
@@ -468,7 +490,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
