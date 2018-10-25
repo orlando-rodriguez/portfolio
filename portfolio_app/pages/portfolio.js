@@ -6,36 +6,36 @@ const Portfolio = () => (
     <Layout title='Portfolio'>
     <main>
         <div>
-          <img src={require('./components/images/logo.jpg')} alt="Crafty Dude" />
+          <img src={require('./components/images/soapwashing.jpg')} alt="Hand Washing" />
           <h2>Capstone</h2>
-          <Button className="price" fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/capstone'>Source Code</a></Button>
+          <Button fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/capstone'>Source Code</a></Button>
           <Button fluid style={{marginBottom: '.5em'}} ><a href='https://craftydudestore.herokuapp.com/'>Live Site</a></Button>
           <p className="description">
           Crafty Dude is a natural, organic skincare solution.
            </p>
         </div>
         <div>
-          <img src={require('./components/images/logo.jpg')} alt="Crafty Dude" />
-          <h2>Capstone</h2>
-          <Button className="price" fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/capstone'>Source Code</a></Button>
-          <Button fluid style={{marginBottom: '.5em'}} ><a href='https://craftydudestore.herokuapp.com/'>Live Site</a></Button>
+          <img src={require('./components/images/map.jpg')} alt="Map" />
+          <h2>Where's Orlando?</h2>
+          <Button  fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/wheresorlando'>Source Code</a></Button>
+          <Button fluid style={{marginBottom: '.5em'}} ><a href='https://whereorlando.firebaseapp.com/'>Live Site</a></Button>
           <p className="description">
-          Crafty Dude is a natural, organic skincare solution.
+          Discover a new hot spot and find Orlando along the way.
            </p>
         </div>
         <div>
-          <img src={require('./components/images/logo.jpg')} alt="Crafty Dude" />
-          <h2>Capstone</h2>
-          <Button className="price" fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/capstone'>Source Code</a></Button>
-          <Button fluid style={{marginBottom: '.5em'}} ><a href='https://craftydudestore.herokuapp.com/'>Live Site</a></Button>
+          <img src={require('./components/images/popcorn.jpg')} alt="Popcorn" />
+          <h2>Movie Finder</h2>
+          <Button  fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/galvanize-tower/tree/master/client/app/src'>Source Code</a></Button>
+          <Button fluid style={{marginBottom: '.5em'}} ><a href='https://moviefinder-47753.firebaseapp.com/'>Live Site</a></Button>
           <p className="description">
-          Crafty Dude is a natural, organic skincare solution.
+          Have a movie in mind? Wanna know what the plot is?
            </p>
         </div>
         <div>
-          <img src={require('./components/images/todo.png')} alt="Crafty Dude" />
+          <img src={require('./components/images/lightbulb.jpeg')} alt="light bulb" />
           <h2>To-Do Organizer</h2>
-          <Button className="price" fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/mytodomvc'>Source Code</a></Button>
+          <Button  fluid style={{marginBottom: '.5em'}} ><a href='https://github.com/orlando-rodriguez/mytodomvc'>Source Code</a></Button>
           <Button fluid style={{marginBottom: '.5em'}} ><a href='https://todo-yeoman.firebaseapp.com/'>Live Site</a></Button>
           <p className="description">
             Create, Update, and Delete items from a To-Do list.

@@ -14,7 +14,7 @@ export default () => (
           My passion lies in helping people from diverse backgrounds enrich their daily lives
           through the use of technology.
         </p>
-        <Image src={require('./components/images/nodejs-seeklogo.com.svg')} size='small' floated='right' />
+        <Image src={require('./components/images/copper.jpg')} size='small' floated='right' />
         <p>
           In July 2018, I was awarded a Web Development certificate from Galvanize Denver. I
           learned many tools and technologies along with paired-programming methods, test-driven development (TDD),
