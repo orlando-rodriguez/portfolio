@@ -11,15 +11,14 @@ export default class Header extends React.Component {
   state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
   render() {
     const { activeItem } = this.state
 
     return (
-      <Menu fluid widths={3} icon='labeled'>
+      <Menu fluid widths={4} icon='labeled'>
         <Link href='/' passHref>
           <Menu.Item
-            href="/"
+            as='a'
             name='home'
             active={activeItem === 'home'}
             onClick={this.handleItemClick}
@@ -31,7 +30,7 @@ export default class Header extends React.Component {
 
         <Link href='/about' passHref>
         <Menu.Item
-          href="/about"
+          as='a'
           name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
@@ -41,14 +40,29 @@ export default class Header extends React.Component {
         </Menu.Item>
         </Link>
 
+        <Link href='/portfolio' passHref>
         <Menu.Item
-          name='video play'
-          active={activeItem === 'video play'}
+          as='a'
+          name='portfolio'
+          active={activeItem === 'portfolio'}
           onClick={this.handleItemClick}
         >
-          <Icon name='video play' />
-          Videos
+          <Icon name='book' />
+          Portfolio
         </Menu.Item>
+        </Link>
+
+        <Link href='/resume' passHref>
+        <Menu.Item
+          as='a'
+          name='resume'
+          active={activeItem === 'resume'}
+          onClick={this.handleItemClick}
+        >
+          <Icon name='newspaper outline' />
+          Resume
+        </Menu.Item>
+        </Link>
       </Menu>
     )
   }

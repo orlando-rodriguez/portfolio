@@ -1,4 +1,5 @@
 import Header from './Header'
+import Footer from './Footer'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -8,7 +9,7 @@ const layoutStyle = {
 }
 
 export default ({ children, title = `Orlando's Portfolio` }) => (
-  <div style={layoutStyle}>
+  <div style={{ padding: 0, margin: 0, backgroundColor: '#323a45', }}>
 
     <Head>
       <title>{ title }</title>
@@ -18,14 +19,16 @@ export default ({ children, title = `Orlando's Portfolio` }) => (
         rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"
       />
+      <link
+        rel="stylesheet"
+        href="styles.css"
+      />
     </Head>
 
     <Header />
 
     {children}
 
-    <footer>
-      {'I`m here to stay'}
-    </footer>
+    <Footer />
   </div>
 )

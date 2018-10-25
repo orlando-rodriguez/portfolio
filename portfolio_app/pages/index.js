@@ -16,6 +16,9 @@ const Index = (props) => (
         font-family: "Arial";
         text-align: center;
       }
+      body {
+        background-color: #323a45;
+      }
     `}</style>
   </Layout>
 )
