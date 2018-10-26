@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -389,7 +389,7 @@ var Main = function Main() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3078888583"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: __webpack_require__(/*! ./images/orlando.jpg */ "./pages/components/images/orlando.jpg"),
+    src: __webpack_require__(/*! ./images/orlandocutout.jpg */ "./pages/components/images/orlandocutout.jpg"),
     size: "large",
     alt: "Orlando Selfie",
     centered: true
@@ -451,7 +451,7 @@ var Main = function Main() {
     className: "jsx-3078888583"
   }, "NodeJS")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "3078888583",
-    css: "h2.jsx-3078888583,p.jsx-3078888583{font-family:\"Arial\";text-align:center;margin-top:1em;color:#5faeb6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvY29tcG9uZW50cy9NYWluLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQStCZ0IsQUFHOEIsb0JBQ0Ysa0JBQ0gsZUFDRCxjQUNoQiIsImZpbGUiOiIvVXNlcnMvT3JsYW5kby9Eb2N1bWVudHMvR2FsdmFuaXplL3BvcnRmb2xpby9wb3J0Zm9saW9fYXBwL3BhZ2VzL2NvbXBvbmVudHMvTWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhlYWRlciwgSW1hZ2UsIEdyaWQsIFNlZ21lbnQsIERpdmlkZXIgfSBmcm9tICdzZW1hbnRpYy11aS1yZWFjdCdcblxuXG5jb25zdCBNYWluID0gKCkgPT4gKFxuXG5cblxuPGRpdj5cblxuICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvb3JsYW5kby5qcGcnKX0gc2l6ZT0nbGFyZ2UnIGFsdD0nT3JsYW5kbyBTZWxmaWUnICBjZW50ZXJlZCAvPlxuXG4gICAgPHNlY3Rpb24+XG4gICAgICA8aDI+RnVsbC1TdGFjayBTb2Z0d2FyZSBFbmdpbmVlcjwvaDI+XG4gICAgICA8R3JpZCBjb2x1bW5zPXszfSByZWxheGVkIHN0eWxlPXt7IG1hcmdpblRvcDogJzJlbScgfX0+XG4gICAgICAgIDxHcmlkLkNvbHVtbiBzdHlsZT17e2JvcmRlclJpZ2h0U3R5bGU6ICdkYXNoZWQnLCBib3JkZXJSaWdodENvbG9yOiAnIzc3ODg5OScsfX0+XG4gICAgICAgICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvcmVhY3Qtc2Vla2xvZ28uY29tLnN2ZycpfSBhbHQ9J1JlYWN0IExvZ28nIHNpemU9J3NtYWxsJyBjZW50ZXJlZCBzdHlsZT17eyB3aWR0aDogJzE1MHB4JywgaGVpZ2h0OiAnMTUwcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPlJlYWN0PC9wPlxuICAgICAgICA8L0dyaWQuQ29sdW1uPlxuXG4gICAgICAgIDxHcmlkLkNvbHVtbiBzdHlsZT17e2JvcmRlclJpZ2h0U3R5bGU6ICdkYXNoZWQnLCBib3JkZXJSaWdodENvbG9yOiAnIzc3ODg5OScsfX0+XG4gICAgICAgICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvamF2YXNjcmlwdC1qcy1zZWVrbG9nby5jb20uc3ZnJyl9IGFsdD0nSmF2YVNjcmlwdCBsb2dvJyBzaXplPSdzbWFsbCcgY2VudGVyZWQgc3R5bGU9e3sgd2lkdGg6ICcxNTBweCcsIGhlaWdodDogJzE1MHB4JywgYm9yZGVyUmlnaHQ6ICcxcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPkphdmFTY3JpcHQ8L3A+XG4gICAgICAgIDwvR3JpZC5Db2x1bW4+XG4gICAgICAgIDxEaXZpZGVyIHZlcnRpY2FsPjwvRGl2aWRlcj5cbiAgICAgICAgPEdyaWQuQ29sdW1uPlxuICAgICAgICAgIDxJbWFnZSBzcmM9e3JlcXVpcmUoJy4vaW1hZ2VzL25vZGVqcy1zZWVrbG9nby5jb20uc3ZnJyl9IGFsdD0nTm9kZUpTIGxvZ28nIHNpemU9J3NtYWxsJyBjZW50ZXJlZCBzdHlsZT17eyB3aWR0aDogJzE1MHB4JywgaGVpZ2h0OiAnMTUwcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPk5vZGVKUzwvcD5cbiAgICAgICAgPC9HcmlkLkNvbHVtbj5cbiAgICAgIDwvR3JpZD5cbiAgICA8L3NlY3Rpb24+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAgaDIsIHAge1xuICAgICAgICAgZm9udC1mYW1pbHk6IFwiQXJpYWxcIjtcbiAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgIG1hcmdpbi10b3A6IDFlbTtcbiAgICAgICAgIGNvbG9yOiAjNWZhZWI2O1xuICAgICAgIH1cbiAgICAgYH08L3N0eWxlPlxuIDwvZGl2PlxuXG4pXG5cbmV4cG9ydCBkZWZhdWx0IE1haW5cbiJdfQ== */\n/*@ sourceURL=/Users/Orlando/Documents/Galvanize/portfolio/portfolio_app/pages/components/Main.js */"
+    css: "h2.jsx-3078888583,p.jsx-3078888583{font-family:\"Arial\";text-align:center;margin-top:1em;color:#5faeb6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvY29tcG9uZW50cy9NYWluLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQStCZ0IsQUFHOEIsb0JBQ0Ysa0JBQ0gsZUFDRCxjQUNoQiIsImZpbGUiOiIvVXNlcnMvT3JsYW5kby9Eb2N1bWVudHMvR2FsdmFuaXplL3BvcnRmb2xpby9wb3J0Zm9saW9fYXBwL3BhZ2VzL2NvbXBvbmVudHMvTWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhlYWRlciwgSW1hZ2UsIEdyaWQsIFNlZ21lbnQsIERpdmlkZXIgfSBmcm9tICdzZW1hbnRpYy11aS1yZWFjdCdcblxuXG5jb25zdCBNYWluID0gKCkgPT4gKFxuXG5cblxuPGRpdj5cblxuICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvb3JsYW5kb2N1dG91dC5qcGcnKX0gc2l6ZT0nbGFyZ2UnIGFsdD0nT3JsYW5kbyBTZWxmaWUnICBjZW50ZXJlZCAvPlxuXG4gICAgPHNlY3Rpb24+XG4gICAgICA8aDI+RnVsbC1TdGFjayBTb2Z0d2FyZSBFbmdpbmVlcjwvaDI+XG4gICAgICA8R3JpZCBjb2x1bW5zPXszfSByZWxheGVkIHN0eWxlPXt7IG1hcmdpblRvcDogJzJlbScgfX0+XG4gICAgICAgIDxHcmlkLkNvbHVtbiBzdHlsZT17e2JvcmRlclJpZ2h0U3R5bGU6ICdkYXNoZWQnLCBib3JkZXJSaWdodENvbG9yOiAnIzc3ODg5OScsfX0+XG4gICAgICAgICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvcmVhY3Qtc2Vla2xvZ28uY29tLnN2ZycpfSBhbHQ9J1JlYWN0IExvZ28nIHNpemU9J3NtYWxsJyBjZW50ZXJlZCBzdHlsZT17eyB3aWR0aDogJzE1MHB4JywgaGVpZ2h0OiAnMTUwcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPlJlYWN0PC9wPlxuICAgICAgICA8L0dyaWQuQ29sdW1uPlxuXG4gICAgICAgIDxHcmlkLkNvbHVtbiBzdHlsZT17e2JvcmRlclJpZ2h0U3R5bGU6ICdkYXNoZWQnLCBib3JkZXJSaWdodENvbG9yOiAnIzc3ODg5OScsfX0+XG4gICAgICAgICAgPEltYWdlIHNyYz17cmVxdWlyZSgnLi9pbWFnZXMvamF2YXNjcmlwdC1qcy1zZWVrbG9nby5jb20uc3ZnJyl9IGFsdD0nSmF2YVNjcmlwdCBsb2dvJyBzaXplPSdzbWFsbCcgY2VudGVyZWQgc3R5bGU9e3sgd2lkdGg6ICcxNTBweCcsIGhlaWdodDogJzE1MHB4JywgYm9yZGVyUmlnaHQ6ICcxcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPkphdmFTY3JpcHQ8L3A+XG4gICAgICAgIDwvR3JpZC5Db2x1bW4+XG4gICAgICAgIDxEaXZpZGVyIHZlcnRpY2FsPjwvRGl2aWRlcj5cbiAgICAgICAgPEdyaWQuQ29sdW1uPlxuICAgICAgICAgIDxJbWFnZSBzcmM9e3JlcXVpcmUoJy4vaW1hZ2VzL25vZGVqcy1zZWVrbG9nby5jb20uc3ZnJyl9IGFsdD0nTm9kZUpTIGxvZ28nIHNpemU9J3NtYWxsJyBjZW50ZXJlZCBzdHlsZT17eyB3aWR0aDogJzE1MHB4JywgaGVpZ2h0OiAnMTUwcHgnLCB9fSAvPlxuICAgICAgICAgIDxwPk5vZGVKUzwvcD5cbiAgICAgICAgPC9HcmlkLkNvbHVtbj5cbiAgICAgIDwvR3JpZD5cbiAgICA8L3NlY3Rpb24+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAgaDIsIHAge1xuICAgICAgICAgZm9udC1mYW1pbHk6IFwiQXJpYWxcIjtcbiAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgIG1hcmdpbi10b3A6IDFlbTtcbiAgICAgICAgIGNvbG9yOiAjNWZhZWI2O1xuICAgICAgIH1cbiAgICAgYH08L3N0eWxlPlxuIDwvZGl2PlxuXG4pXG5cbmV4cG9ydCBkZWZhdWx0IE1haW5cbiJdfQ== */\n/*@ sourceURL=/Users/Orlando/Documents/Galvanize/portfolio/portfolio_app/pages/components/Main.js */"
   }));
 };
 
@@ -548,14 +548,14 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ "./pages/components/images/orlando.jpg":
-/*!*********************************************!*\
-  !*** ./pages/components/images/orlando.jpg ***!
-  \*********************************************/
+/***/ "./pages/components/images/orlandocutout.jpg":
+/*!***************************************************!*\
+  !*** ./pages/components/images/orlandocutout.jpg ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/orlando-48768ca8279e19348d84b3275f4b3cf9.jpg";
+module.exports = "/_next/static/images/orlandocutout-06497e298a22447f1da1e4a419bf88a8.jpg";
 
 /***/ }),
 
@@ -587,11 +587,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/MyLayout.js */ "./pages/components/MyLayout.js");
 /* harmony import */ var _components_Main_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Main.js */ "./pages/components/Main.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__);
-
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -604,7 +601,7 @@ var Index = function Index(props) {
     className: "jsx-1656992141"
   }, "Orlando Rodriguez"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Main_js__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "1656992141",
-    css: "h1.jsx-1656992141{font-family:\"Arial\";text-align:center;color:#5faeb6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYWdCLEFBRzZCLG9CQUNGLGtCQUNKLGNBQ2hCIiwiZmlsZSI6Ii9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCBNYWluIGZyb20gJy4vY29tcG9uZW50cy9NYWluLmpzJ1xuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCdcbmltcG9ydCB7IEltYWdlIH0gZnJvbSAnc2VtYW50aWMtdWktcmVhY3QnXG5cblxuXG5jb25zdCBJbmRleCA9IChwcm9wcykgPT4gKFxuICA8TGF5b3V0PlxuICAgIDxoMT5PcmxhbmRvIFJvZHJpZ3VlejwvaDE+XG4gICAgPE1haW4gLz5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGgxIHtcbiAgICAgICAgZm9udC1mYW1pbHk6IFwiQXJpYWxcIjtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBjb2xvcjogIzVmYWViNjtcbiAgICAgIH1cblxuICAgIGB9PC9zdHlsZT5cbiAgPC9MYXlvdXQ+XG4pXG5cblxuZXhwb3J0IGRlZmF1bHQgSW5kZXhcbiJdfQ== */\n/*@ sourceURL=/Users/Orlando/Documents/Galvanize/portfolio/portfolio_app/pages/index.js */"
+    css: "h1.jsx-1656992141{font-family:\"Arial\";text-align:center;color:#5faeb6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWWdCLEFBRzZCLG9CQUNGLGtCQUNKLGNBQ2hCIiwiZmlsZSI6Ii9Vc2Vycy9PcmxhbmRvL0RvY3VtZW50cy9HYWx2YW5pemUvcG9ydGZvbGlvL3BvcnRmb2xpb19hcHAvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCBNYWluIGZyb20gJy4vY29tcG9uZW50cy9NYWluLmpzJ1xuaW1wb3J0IHsgSW1hZ2UgfSBmcm9tICdzZW1hbnRpYy11aS1yZWFjdCdcblxuXG5cbmNvbnN0IEluZGV4ID0gKHByb3BzKSA9PiAoXG4gIDxMYXlvdXQ+XG4gICAgPGgxPk9ybGFuZG8gUm9kcmlndWV6PC9oMT5cbiAgICA8TWFpbiAvPlxuXG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgaDEge1xuICAgICAgICBmb250LWZhbWlseTogXCJBcmlhbFwiO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIGNvbG9yOiAjNWZhZWI2O1xuICAgICAgfVxuXG4gICAgYH08L3N0eWxlPlxuICA8L0xheW91dD5cbilcblxuXG5leHBvcnQgZGVmYXVsdCBJbmRleFxuIl19 */\n/*@ sourceURL=/Users/Orlando/Documents/Galvanize/portfolio/portfolio_app/pages/index.js */"
   }));
 };
 
@@ -612,7 +609,7 @@ var Index = function Index(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -621,17 +618,6 @@ var Index = function Index(props) {
 
 module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
-
-/***/ }),
-
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 

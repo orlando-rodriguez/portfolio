@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Layout from './components/MyLayout.js'
 import Main from './components/Main.js'
-import fetch from 'isomorphic-unfetch'
 import { Image } from 'semantic-ui-react'
 
 

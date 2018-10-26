@@ -7,7 +7,7 @@ const Main = () => (
 
 <div>
 
-   <Image src={require('./images/orlando.jpg')} size='large' alt='Orlando Selfie'  centered />
+   <Image src={require('./images/orlandocutout.jpg')} size='large' alt='Orlando Selfie'  centered />
 
     <section>
       <h2>Full-Stack Software Engineer</h2>
