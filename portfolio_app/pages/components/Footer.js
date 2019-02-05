@@ -30,8 +30,20 @@ export default class Footer extends React.Component {
                     <address>
                       <Icon.Group size='small'>
                         <Icon name='envelope open outline' />
+                        <a  style={{ color: '#323a45'}} href="mailto:orlando.r@me.com">orlando.r@me.com</a>
                       </Icon.Group>
-                      <a  style={{ color: '#323a45'}} href="mailto:orlando.r@me.com">orlando.r@me.com</a>
+                    </address>
+                    <address>
+                      <Icon.Group size='small'>
+                        <Icon name='linkedin' />
+                        <a  style={{ color: '#323a45'}} href="https://www.linkedin.com/in/rodriguez-orlando/">LinkedIn</a>
+                      </Icon.Group>
+                    </address>
+                    <address>
+                      <Icon.Group size='small'>
+                        <Icon name='github' />
+                        <a  style={{ color: '#323a45'}} href="https://github.com/orlando-rodriguez">GitHub</a>
+                      </Icon.Group>
                     </address>
 
 

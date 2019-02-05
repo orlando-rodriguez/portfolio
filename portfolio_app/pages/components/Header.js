@@ -15,7 +15,7 @@ export default class Header extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <Menu fluid widths={4} icon='labeled' style={{backgroundColor: '#5faeb6'}}>
+      <Menu fluid widths={4} icon='labeled' style={{backgroundColor: '#5FAEB6'}}>
         <Link href='/' passHref>
           <Menu.Item
             as='a'

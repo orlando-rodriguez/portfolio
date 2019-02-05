@@ -10,7 +10,7 @@ const Main = () => (
    <Image src={require('./images/orlandocutout.jpg')} size='large' alt='Orlando Selfie'  centered />
 
     <section>
-      <h2>Full-Stack Software Engineer</h2>
+      <h2>Software Developer</h2>
       <Grid columns={3} relaxed style={{ marginTop: '2em' }}>
         <Grid.Column style={{borderRightStyle: 'dashed', borderRightColor: '#778899',}}>
           <Image src={require('./images/react-seeklogo.com.svg')} alt='React Logo' size='small' centered style={{ width: '150px', height: '150px', }} />
